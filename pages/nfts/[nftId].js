@@ -19,7 +19,7 @@ const style = {
 const Nft = () => {
   // Obtained from thirdweb marketplace module address
   const thirdweb_marketplace_address =
-    "0x9caC978c276C45F28Ce2f107f64D31E1Fb1d3FE5";
+    "0x3dc79cDE98F4d0479Bf7CFBF9B760C1804CdBdFc";
 
   // Obtained from Alchemyapi login and get api key
   const rinkebyApi =
@@ -36,7 +36,7 @@ const Nft = () => {
     if (!provider) return;
 
     const sdk = new ThirdwebSDK(provider.getSigner(), rinkebyApi);
-    return sdk.getNFTModule("0xcB08316B15fD524886078ED8F95BD9967172CB95");
+    return sdk.getNFTModule("0x23A4Aa802ec83E8475ce28c85C8034C1Ac916934");
   }, [provider]);
 
   // get all the NFTs in the collection
