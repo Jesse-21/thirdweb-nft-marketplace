@@ -25,10 +25,10 @@ const Hero = () => {
         <div className={style.contentWrapper}>
           <div className={style.copyContainer}>
             <div className={style.title}>
-              Discover, collect and sell extraordinary NFTs
+              Discover, collect and sell one of a kind NFT Art
             </div>
             <div className={style.description}>
-              NinjaSea is the Largest NFT Marketplace across the globe.
+              Of 1 NFT Marketplace is THE place for NFT and NFT Art!
             </div>
             <div className={style.ctaContainer}>
               <button className={style.accentedButton}>Explore</button>
@@ -48,7 +48,7 @@ const Hero = () => {
                 alt=""
               />
               <div className={style.author}>
-                <div className={style.name}>Ninja</div>
+                <div className={style.name}>OF1 NFT</div>
                 <a
                   className="text-[#75787c]"
                   href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/2324922113504035910649522729980423429926362207300810036887725141691069366277"
